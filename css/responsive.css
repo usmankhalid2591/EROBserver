@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1024px) {
+  
+}
+
+@media only screen and (max-width: 823px) {
+
+}
+
+
+@media only screen and (max-width: 568px) {
+  .menu_bar {
+    height: 120px;  
+  }
+  .top-main .container .social a img ,
+  .top-main .container .wrapper-inner img{
+    width: 100%;
+  }
+  .top-main .container .social p{
+    font-size: 12px;
+    margin:0px 7px !important;
+    text-align: center;
+  }
+  .top-main .container .social .donate{
+    font-size: 16px;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .menu_bar {
+    height: 160px;  
+  }
+  .menu_bar .container .bar-inner .search-bar{
+    width: 50%;
+  }
+  .menu_bar .container .bar-inner .btn{
+    margin: 3px 5px;
+  }
+}

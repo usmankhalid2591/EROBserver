@@ -1,0 +1,204 @@
+@font-face {
+  font-family: mont_light;
+  src: url(../Font/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+  font-family: mont_ultra_light;
+  src: url(../Font/montserrat/Montserrat-UltraLight.otf);
+}
+
+@font-face {
+  font-family: mont_regular;
+  src: url(../Font/montserrat/Montserrat-Regular.otf);
+}
+
+@font-face {
+  font-family: mont_bold;
+  src: url(../Font/montserrat/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: mont_extra_bold;
+  src: url(../Font/montserrat/Montserrat-ExtraBold.otf);
+}
+
+@font-face {
+  font-family: mont_semi_bold;
+  src: url(../Font/montserrat/Montserrat-SemiBold.otf);
+}
+
+@font-face {
+  font-family: mont_black;
+  src: url(../Font/montserrat/Montserrat-Black.otf);
+}
+
+@font-face {
+  font-family: mont_hairline;
+  src: url(../Font/montserrat/Montserrat-Hairline.otf);
+}
+
+@font-face {
+  font-family: mont_thin;
+  src: url(../Font/montserrat/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: times;
+  src: url(../Font/times/times.ttf);
+}
+
+* {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-main {
+  background-color: #D7B058;
+  height: 50px;
+}
+
+.top-main .container {
+  height: 100%;
+}
+
+.top-main .container .wrapper-inner {
+  height: 100%;
+}
+
+.top-main .container .social p {
+  font-size: 20px;
+  color: #3E3E3E;
+  font-family: mont_semi_bold;
+  text-transform: uppercase;
+}
+
+.top-main .container .social a {
+  margin: 0px 5px;
+}
+
+.top-main .container .social .donate {
+  background-color: #004C99;
+  font-family: times;
+  color: #FFFFFF;
+  font-size: 24px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 27%;
+  border-bottom-right-radius: 27%;
+  position: relative;
+  top: -5px;
+}
+
+.menu_bar {
+  background-color: #AB3535;
+  height: 80px;
+}
+
+.menu_bar .container {
+  height: 100%;
+}
+
+.menu_bar .container .bar-inner {
+  height: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu_bar .container .bar-inner .btn {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 0px 5px;
+  color: #FFFFFF;
+}
+
+.menu_bar .container .bar-inner .drop-btn {
+  font-size: 40px;
+  padding: 0px;
+}
+
+.menu_bar .container .bar-inner .search-bar {
+  background-color: #FFFFFF;
+  -webkit-box-flex: 10;
+      -ms-flex-positive: 10;
+          flex-grow: 10;
+  font-family: mont_semi_bold;
+  font-size: 20px;
+  text-align: left;
+  color: #BEBEBE;
+}
+
+.menu_bar .container .bar-inner ::-webkit-input-placeholder {
+  color: #BEBEBE;
+}
+
+.menu_bar .container .bar-inner :-ms-input-placeholder {
+  color: #BEBEBE;
+}
+
+.menu_bar .container .bar-inner ::-ms-input-placeholder {
+  color: #BEBEBE;
+}
+
+.menu_bar .container .bar-inner ::placeholder {
+  color: #BEBEBE;
+}
+
+.menu_bar .container .bar-inner .search-btn {
+  background-color: #3E3E3E;
+}
+
+.menu_bar .container .bar-inner .location {
+  background-color: #004C99;
+}
+
+.footer {
+  background-color: #D7B058;
+  height: 250px;
+}
+
+.footer .container {
+  height: 100%;
+}
+
+.footer .container .wrapper-inner {
+  height: 100%;
+}
+
+.footer .container .wrapper-inner .lorem-logo {
+  width: 100%;
+}
+
+.footer .container .wrapper-inner .copy-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .container .wrapper-inner .footer-text {
+  color: #304154;
+  font-size: 16px;
+  font-family: mont_regular;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto 0px;
+}
+/*# sourceMappingURL=style.css.map */

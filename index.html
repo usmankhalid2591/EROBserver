@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- owl  Carousel-->
+
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+  
+  <!--    Font Awesome 5.9-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <!--    Bootstrap 4.3.1-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Home - Pro-Publica</title>
+</head>
+
+<body>
+
+  <header class="top-main">
+    <div class="container">
+      <div class="wrapper-inner d-flex justify-content-between align-items-center">
+          <div class="logo">
+              <img src="/img/Logo.svg">
+          </div>
+          <div class="social d-flex align-items-center">
+            <a href="javascript:void(0);">
+              <img src="/img/Facebook Icon.svg">
+            </a>
+            <a href="javascript:void(0);"><img src="/img/Twitter Icon.svg"></a>
+            <a href="javascript:void(0);"><img src="/img/Mail Sign Up Icon.svg"></a>
+            <p class="m-0 mr-4">sign up</p>
+            <button class="btn donate align-top">
+              Donate
+            </button>
+          </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="menu_bar">
+    <div class="container">
+      <div class="bar-inner d-flex justify-content-between align-items-center">
+        <button class="btn drop-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <input placeholder="&#xf304; Look up an address or zip code" type="text" class="btn search-bar fontAwesome"> 
+        <button class="btn search-btn">
+            <i class="fas fa-search"></i> Search
+        </button>
+        <button class="btn location">
+            <i class="fas fa-location-arrow"></i> Use my current Location
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="menu_bar mobile-version">
+      <div class="container">
+      </div>
+    </section> -->
+
+
+<footer class="footer">
+  <div class="container">
+      <div class="wrapper-inner d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <img class="lorem-logo" src="/img/Logo.svg">
+            <div class="copy-right pt-2">
+              <img class="c-logo" src="/img/c-logo.png">
+              <p class="footer-text">Copyright</p>
+            </div>
+            <div class="pt-2">
+                <p class="footer-text">Lorem Ipsum Inc.</p>
+            </div>
+          </div>
+
+      </div>
+  </div>
+</footer>
+
+
+
+<!-- owl  Carousel-->
+  
+
+  
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+
+    var mouse_is_inside = false;
+
+    $(document).ready(function () {
+      // executes when HTML-Document is loaded and DOM is ready
+
+      $('#art')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-4.jpg");
+        })
+      $('#aut')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-2.jpg");
+        })
+      $('#com')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "/img/service-3.jpg");
+        })
+      $('#drain')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-4.jpg");
+        })
+      $('#drive')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-5.jpg");
+        })
+      $('#garden1')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-6.jpg");
+        })
+      $('#garden2')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-1.jpg");
+        })
+      $('#garden3')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-2.jpg");
+        })
+      $('#irrig')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-3.jpg");
+        })
+      $('#drain')
+        .mouseover(function () {
+          $(".img-chang").attr("src", "img/service-4.jpg");
+        })
+        .mouseout(function () {
+          $(".img-chang").attr("src", "img/service-5.jpg");
+        });
+
+      $("#dropdownMenuLink").click(function () {
+        if ($('.dropdown-menu').css('display') == 'none') {
+          $(".dropdown-menu").fadeIn();
+          mouse_is_inside = true;
+        }
+        else {
+          $(".dropdown-menu").fadeOut();
+          mouse_is_inside = false;
+        }
+      });
+
+    });
+
+    (function ($) {
+        "use strict";
+
+        var $navbar = $("."),
+          y_pos = $navbar.offset().top,
+          height = $navbar.height();
+
+        $(document).scroll(function () {
+          var scrollTop = $(this).scrollTop();
+
+          if (scrollTop > y_pos + height) {
+            $navbar.addClass("fixed").animate({
+              top: 0
+            });
+          } else if (scrollTop <= y_pos) {
+            $navbar.removeClass("fixed").clearQueue().animate({
+              top: "-38px"
+            }, 0);
+          }
+        });
+
+      })(jQuery, undefined);
+
+
+  </script>
+  
+<script>
+  window.onscroll = function () { myFunction() };
+
+  var navbar = document.getElementById("navbarscroll");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+</body>
+
+</html>
