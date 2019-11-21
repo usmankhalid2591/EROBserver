@@ -53,6 +53,7 @@
           box-shadow: none;
 }
 
+/******************Header*************************/
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -61,7 +62,7 @@ body {
 }
 
 .top-main {
-  background-color: #D7B058;
+  background-color: #d7b058;
   height: 50px;
 }
 
@@ -75,7 +76,7 @@ body {
 
 .top-main .container .social p {
   font-size: 20px;
-  color: #3E3E3E;
+  color: #3e3e3e;
   font-family: mont_semi_bold;
   text-transform: uppercase;
 }
@@ -85,9 +86,9 @@ body {
 }
 
 .top-main .container .social .donate {
-  background-color: #004C99;
+  background-color: #004c99;
   font-family: times;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
@@ -98,7 +99,7 @@ body {
 }
 
 .menu_bar {
-  background-color: #AB3535;
+  background-color: #ab3535;
   height: 80px;
 }
 
@@ -120,7 +121,7 @@ body {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin: 0px 5px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .menu_bar .container .bar-inner .drop-btn {
@@ -129,38 +130,38 @@ body {
 }
 
 .menu_bar .container .bar-inner .search-bar {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   -webkit-box-flex: 10;
       -ms-flex-positive: 10;
           flex-grow: 10;
   font-family: mont_semi_bold;
   font-size: 20px;
   text-align: left;
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .menu_bar .container .bar-inner ::-webkit-input-placeholder {
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .menu_bar .container .bar-inner :-ms-input-placeholder {
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .menu_bar .container .bar-inner ::-ms-input-placeholder {
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .menu_bar .container .bar-inner ::placeholder {
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .menu_bar .container .bar-inner .search-btn {
-  background-color: #3E3E3E;
+  background-color: #3e3e3e;
 }
 
 .menu_bar .container .bar-inner .location {
-  background-color: #004C99;
+  background-color: #004c99;
 }
 
 .introduction {
@@ -171,7 +172,7 @@ body {
 .introduction .heading {
   font-family: mont_bold;
   font-size: 32px;
-  color: #004C99;
+  color: #004c99;
 }
 
 .introduction .paragraph {
@@ -182,7 +183,7 @@ body {
 }
 
 .icons {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 40px 0px;
 }
 
@@ -194,24 +195,24 @@ body {
   padding: 10px 0px;
 }
 
-.tables-items {
+.table-items {
   background-color: rgba(227, 114, 36, 0.05);
   padding: 20px 0px;
 }
 
-.tables-items .name {
+.table-items .name {
   font-family: mont_regular;
   font-size: 16px;
-  color: #E37224;
+  color: #e37224;
   text-align: left;
 }
 
-.tables-items .input-value {
+.table-items .input-value {
   width: auto;
 }
 
 .footer {
-  background-color: #D7B058;
+  background-color: #d7b058;
   height: 250px;
 }
 
