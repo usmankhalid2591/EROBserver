@@ -194,6 +194,22 @@ body {
   padding: 10px 0px;
 }
 
+.tables-items {
+  background-color: rgba(227, 114, 36, 0.05);
+  padding: 20px 0px;
+}
+
+.tables-items .name {
+  font-family: mont_regular;
+  font-size: 16px;
+  color: #E37224;
+  text-align: left;
+}
+
+.tables-items .input-value {
+  width: auto;
+}
+
 .footer {
   background-color: #D7B058;
   height: 250px;

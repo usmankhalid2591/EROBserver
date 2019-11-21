@@ -204,6 +204,19 @@ body {
     padding: 10px 0px;
   }
 }
+.tables-items{
+  background-color: rgba($color:color(pro_orange), $alpha: 0.05);
+  padding: 20px 0px;
+    .name{
+      font-family: mont_regular;
+      font-size: font-size(16);
+      color: color(pro_orange);
+      text-align: left;
+    }
+    .input-value{
+      width: auto;
+    }
+}
 
 .footer{
   background-color: color(pro_yellow);
