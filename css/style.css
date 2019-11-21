@@ -163,6 +163,37 @@ body {
   background-color: #004C99;
 }
 
+.introduction {
+  background-color: rgba(227, 114, 36, 0.05);
+  padding: 60px;
+}
+
+.introduction .heading {
+  font-family: mont_bold;
+  font-size: 32px;
+  color: #004C99;
+}
+
+.introduction .paragraph {
+  font-family: mont_regular;
+  font-size: 18px;
+  color: #707070;
+  text-align: center;
+}
+
+.icons {
+  background-color: #FFFFFF;
+  padding: 40px 0px;
+}
+
+.icons .paragraph {
+  font-family: mont_regular;
+  font-size: 10px;
+  color: #304154;
+  text-align: left;
+  padding: 10px 0px;
+}
+
 .footer {
   background-color: #D7B058;
   height: 250px;

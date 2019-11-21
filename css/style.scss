@@ -11,6 +11,7 @@ $colors: (
   pro_off_white : #F0F0F0,
   pro_serach_bar : #E9F0F8,
   pro_grey_text : #BEBEBE,
+  pro_intro_text: #707070,
   pro_serach_btn : #304154,
   pro_text_bg : #EEEEEE
 );
@@ -176,6 +177,34 @@ body {
   }
 
 }
+.introduction{
+  background-color: rgba($color:color(pro_orange), $alpha: 0.05);;
+  padding: 60px;
+  .heading{
+    font-family: mont_bold;
+    font-size: font-size(32);
+    color: color(pro_blue);
+  }
+  .paragraph{
+    font-family: mont_regular;
+    font-size: font-size(18);
+    color: color(pro_intro_text);
+    text-align: center;
+  }
+}
+
+.icons{
+  background-color: color(pro_white);
+  padding: 40px 0px;
+  .paragraph{
+    font-family: mont_regular;
+    font-size: font-size(10);
+    color: color(pro_serach_btn);
+    text-align: left;
+    padding: 10px 0px;
+  }
+}
+
 .footer{
   background-color: color(pro_yellow);
   height: 250px;
