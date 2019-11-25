@@ -6,6 +6,7 @@ $(document).ready(function(){
         margin: 10,
         dots: false,
         nav:true,
+        center:true,
         autoplayTimeout:5000,
         responsiveClass: true,
         responsive: {
