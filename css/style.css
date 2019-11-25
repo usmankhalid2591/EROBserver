@@ -393,6 +393,22 @@ body {
   filter: grayscale(100%);
 }
 
+.fas {
+  color: #3e3e3e;
+  padding: 15px;
+  position: absolute;
+  top: 38.6%;
+  font-size: 50px;
+}
+
+.fa-chevron-right {
+  right: -20px;
+}
+
+.fa-chevron-left {
+  left: -20px;
+}
+
 .footer {
   background-color: #d7b058;
   height: 250px;
