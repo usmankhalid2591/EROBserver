@@ -1,51 +1,20 @@
 
 
-$(document).ready(function(){
-    $('#owl-demo2').owlCarousel({
-        loop: true,
-        margin: 10,
-        dots: false,
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
         nav:true,
-        center:true,
-        autoplayTimeout:5000,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-
-
-            },
-            600: {
-                items: 2,
-
-            },
-            1000: {
-                items: 3
-
-            }
-        }
-    })
-
-    $('#owl-demo1').owlCarousel({
-        loop: true,
-        margin: 10,
         dots: false,
-        nav:true,
-        autoplayTimeout:1000,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-
-
+        responsive:{
+            0:{
+                items:1
             },
-            600: {
-                items: 1,
-
+            600:{
+                items:3
             },
-            1000: {
-                items: 1
-
+            1000:{
+                items:3
             }
         }
     })
