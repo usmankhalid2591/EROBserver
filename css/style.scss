@@ -337,21 +337,25 @@ body {
 }
 
 .main-carousal {
+  padding: 30px 0px;
   .container {
-    
-  }
-  .main-div {
-    border: 1px solid color(pro_light_red);
-    border-radius: 7px;
-    .paragraph-2 {
-      font-family: mont_semi_bold;
-      font-size: font-size(18);
-      color: color(pro_light_red);
-    }
-    .paragraph-1 {
-      font-family: mont_regular;
-      font-size: font-size(18);
-      color: color(pro_serach_btn);
+    .card-div{
+      border: 1px solid color(pro_light_red);
+      border-radius: 7px;
+      .paragraph-2 {
+        font-family: mont_semi_bold;
+        font-size: font-size(18);
+        color: color(pro_light_red);
+        padding: 0px;
+        margin: 0px;
+      }
+      .paragraph-1 {
+        font-family: mont_regular;
+        font-size: font-size(18);
+        color: color(pro_serach_btn);
+        padding: 0px;
+        margin: 0px;
+      }
     }
   }
 }

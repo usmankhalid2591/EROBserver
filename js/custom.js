@@ -48,8 +48,8 @@ $(document).ready(function(){
             }
         }
     })
-    $('.owl-next').html('<i class="fas fa-arrow-right"></i>');
-    $('.owl-prev').html('<i class="fas fa-arrow-left"></i>');
+    $('.owl-next').html('<i class="fas fa-chevron-right"></i>');
+    $('.owl-prev').html('<i class="fas fa-chevron-left"></i>');
 });
 
 

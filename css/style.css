@@ -332,21 +332,29 @@ body {
   color: #be3b3b;
 }
 
-.main-carousal .main-div {
+.main-carousal {
+  padding: 30px 0px;
+}
+
+.main-carousal .container .card-div {
   border: 1px solid #be3b3b;
   border-radius: 7px;
 }
 
-.main-carousal .main-div .paragraph-2 {
+.main-carousal .container .card-div .paragraph-2 {
   font-family: mont_semi_bold;
   font-size: 18px;
   color: #be3b3b;
+  padding: 0px;
+  margin: 0px;
 }
 
-.main-carousal .main-div .paragraph-1 {
+.main-carousal .container .card-div .paragraph-1 {
   font-family: mont_regular;
   font-size: 18px;
   color: #304154;
+  padding: 0px;
+  margin: 0px;
 }
 
 .footer {
