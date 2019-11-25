@@ -394,18 +394,31 @@ body {
 }
 
 .fas {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fas:hover {
+  -webkit-transform: scale(1.2) !important;
+          transform: scale(1.2) !important;
+  color: #ab3535;
+}
+
+.fa-chevron-right {
   color: #3e3e3e;
   padding: 15px;
   position: absolute;
   top: 38.6%;
   font-size: 50px;
-}
-
-.fa-chevron-right {
   right: -20px;
 }
 
 .fa-chevron-left {
+  color: #3e3e3e;
+  padding: 15px;
+  position: absolute;
+  top: 38.6%;
+  font-size: 50px;
   left: -20px;
 }
 

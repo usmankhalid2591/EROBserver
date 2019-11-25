@@ -385,22 +385,30 @@ body {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
-.fas {
+
+.fas{
+  transition: 0.5s;
+}
+  .fas:hover {
+    transform: scale(1.2) !important;
+    background-color: color(oak_white);
+    color: color(pro_red);
+  }
+
+  .fa-chevron-right {
     color: color(pro_dark);
     padding: 15px;
     position: absolute;
     top: 38.6%;
     font-size: 50px;
-  }
-  .fas:hover {
-    background-color: color(oak_white);
-    color: color(oak_black);
-  }
-
-  .fa-chevron-right {
     right: -20px;
   }
   .fa-chevron-left {
+    color: color(pro_dark);
+    padding: 15px;
+    position: absolute;
+    top: 38.6%;
+    font-size: 50px;
     left: -20px;
   }
 

@@ -863,6 +863,12 @@
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    $('.owl-carousel').find('.owl-nav').removeClass('disabled');
+      $('.owl-carousel').on('changed.owl.carousel', function (event) {
+        $(this).find('.owl-nav').removeClass('disabled');
+      });
+  </script>
 
 </body>
 
