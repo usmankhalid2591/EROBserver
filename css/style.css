@@ -219,9 +219,9 @@ body {
   background-color: #e37224;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  -webkit-transition: opacity .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
@@ -330,6 +330,23 @@ body {
   font-size: 18px;
   font-family: mont_regular;
   color: #be3b3b;
+}
+
+.main-carousal .main-div {
+  border: 1px solid #be3b3b;
+  border-radius: 7px;
+}
+
+.main-carousal .main-div .paragraph-2 {
+  font-family: mont_semi_bold;
+  font-size: 18px;
+  color: #be3b3b;
+}
+
+.main-carousal .main-div .paragraph-1 {
+  font-family: mont_regular;
+  font-size: 18px;
+  color: #304154;
 }
 
 .footer {
