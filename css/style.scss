@@ -18,6 +18,11 @@ $colors: (
     rgba(
       $color: #e37224,
       $alpha: 0.05
+    ),
+  pro_redlite_light:
+    rgba(
+      $color: #ab3535,
+      $alpha: 0.05
     )
 );
 
@@ -35,6 +40,7 @@ $font_sizes: (
   20: 20px,
   18: 18px,
   16: 16px,
+  12: 12px,
   13: 13px,
   10: 10px
 );
@@ -194,6 +200,19 @@ body {
     text-align: center;
   }
 }
+.background-white {
+  background-color: color(pro_white) !important;
+}
+.background-lite {
+  background-color: color(pro_orange_light) !important;
+}
+.background-lite-red{
+  background-color: color(pro_redlite_light) !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; 
+}
 
 .icons {
   background-color: color(pro_white);
@@ -204,6 +223,13 @@ body {
     color: color(pro_serach_btn);
     text-align: left;
     padding: 10px 0px;
+  }
+  a {
+    font-family: mont_regular;
+    font-size: font-size(12);
+    color: color(pro_light_red) !important;
+    text-align: center;
+    text-decoration: none;
   }
 }
 
@@ -337,12 +363,10 @@ body {
 }
 
 .main-carousal {
-
   padding-top: 50px;
-  
-  .container {
 
-    .card-div{
+  .container {
+    .card-div {
       border: 1px solid color(pro_light_red);
       border-radius: 7px;
       width: 95%;
@@ -365,14 +389,13 @@ body {
   }
 }
 
-
 .fas:hover {
   background-color: color(oak_white);
   color: color(oak_black);
 }
 
 .fa-chevron-right {
-  color:color(pro_dark);
+  color: color(pro_dark);
   padding: 15px;
   position: absolute;
   font-size: 50px;
@@ -380,32 +403,47 @@ body {
   right: -15px;
 }
 .fa-chevron-left {
-  color:color(pro_dark);
+  color: color(pro_dark);
   padding: 15px;
   position: absolute;
   font-size: 50px;
   top: 38.6%;
   left: -15px;
 }
-.owl-carousel.owl-drag .owl-item{
-  margin-right: 10px;
-}
-.active{
+
+.active {
   transition: 0.6s;
   transform: scale(0.8) !important;
   opacity: 0.8 !important;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%) ;
+  filter: grayscale(100%);
 }
-.center{
+.center {
   transition: 1s;
   transform: scale(1) !important;
   -webkit-filter: none !important; /* Safari 6.0 - 9.0 */
   filter: none !important;
   opacity: 1 !important;
 }
-
-
+.modal-content {
+  background-color: color(pro_serach_bar);
+  margin: auto;
+  width: 70%;
+  ul {
+    list-style: none;
+    padding: 15px 0px;
+    margin: 0px;
+  }
+  ul li {
+    text-align: center;
+  }
+  .options {
+    font-family: mont_semi_bold;
+    font-size: font-size(18);
+    color: color(pro_blue);
+    text-align: center;
+  }
+}
 
 .footer {
   background-color: color(pro_yellow);
@@ -434,7 +472,3 @@ body {
     }
   }
 }
-
-
-
-
