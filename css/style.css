@@ -53,6 +53,10 @@
           box-shadow: none;
 }
 
+.--red {
+  color: #ab3535;
+}
+
 /******************Header*************************/
 body {
   -webkit-box-sizing: border-box;
