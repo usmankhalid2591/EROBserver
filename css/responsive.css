@@ -6,6 +6,14 @@
 
 }
 
+@media only screen and (max-width: 736px){
+  .table-items .container .visible-on-desktop{
+    display: none;
+  }
+  .table-items .container .visible-on-mobile{
+    display: block;
+  }
+}
 
 @media only screen and (max-width: 568px) {
   .menu_bar {
@@ -25,7 +33,9 @@
   }
 }
 
+@media only screen and (max-width: 414px){
 
+}
 @media only screen and (max-width: 320px) {
   .menu_bar {
     height: 160px;  

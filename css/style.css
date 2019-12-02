@@ -233,7 +233,43 @@ body {
   font-size: 16px;
   color: #e37224;
   text-align: left;
-  margin: auto;
+}
+
+.table-items .container .heading {
+  font-family: mont_bold;
+  font-size: 32px;
+  color: #004c99;
+  padding: 20px 0px;
+}
+
+.table-items .container .paragraph {
+  font-size: 10px;
+  font-family: mont_regular;
+  color: #3e3e3e;
+  width: 50%;
+}
+
+.table-items .container .sub-heading {
+  font-size: 13px;
+  font-family: mont_regular;
+  color: #ab3535;
+}
+
+.table-items .container .font-for-mobile {
+  font-size: 8px;
+}
+
+.table-items .container .visible-on-mobile {
+  display: none;
+}
+
+.table-items .container .visible-on-desktop {
+  display: block;
+}
+
+.table-items .container .around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .table-items .container .slider {
@@ -383,7 +419,7 @@ body {
   margin: 0px;
 }
 
-.fa-chevron-right {
+.main-carousal .container .fa-chevron-right {
   color: #3e3e3e;
   padding: 15px;
   position: absolute;
@@ -392,7 +428,7 @@ body {
   right: -15px;
 }
 
-.fa-chevron-left {
+.main-carousal .container .fa-chevron-left {
   color: #3e3e3e;
   padding: 15px;
   position: absolute;
@@ -401,7 +437,7 @@ body {
   left: -15px;
 }
 
-.active {
+.main-carousal .container .active {
   -webkit-transition: 0.6s;
   transition: 0.6s;
   -webkit-transform: scale(0.8) !important;
@@ -412,7 +448,7 @@ body {
   filter: grayscale(100%);
 }
 
-.center {
+.main-carousal .container .center {
   -webkit-transition: 1s;
   transition: 1s;
   -webkit-transform: scale(1) !important;
@@ -444,6 +480,250 @@ body {
   font-size: 18px;
   color: #004c99;
   text-align: center;
+}
+
+.add-reviews {
+  background-color: rgba(190, 190, 190, 0.05);
+  padding: 30px 0px;
+}
+
+.add-reviews .container .heading {
+  font-family: mont_bold;
+  font-size: 32px;
+  color: #004c99;
+}
+
+.add-reviews .container .sub-paragraph {
+  font-family: mont_regular;
+  color: #3e3e3e;
+}
+
+.add-reviews .container .colum-heading {
+  font-family: mont_regular;
+  font-size: 18px;
+  color: #3e3e3e;
+}
+
+.add-reviews .container .button-wrapper button {
+  background-color: #004c99;
+  color: #ffffff;
+  font-family: mont_regular;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.add-reviews .container .button-wrapper button img {
+  margin-right: 5px;
+}
+
+.add-reviews .container .form-data {
+  padding: 15px 0px;
+}
+
+.add-reviews .container .form-data .name {
+  font-family: mont_regular;
+  color: #bebebe;
+}
+
+.add-reviews .container .form-data .name-field {
+  width: 100%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 2px 8px 1px #bebebe;
+  box-shadow: 1px 2px 8px 1px #bebebe;
+  font-family: mont_regular;
+  color: #bebebe;
+  text-align: left;
+}
+
+.add-reviews .container .padding-form {
+  padding: 0px 60px;
+}
+
+.add-reviews .container .iam-not-robort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #3e3e3e;
+  padding: 20px 0px;
+  width: 35%;
+}
+
+.add-reviews .container .iam-not-robort input {
+  width: 30px;
+  height: 40px;
+  background-color: #ffffff;
+}
+
+.add-reviews .container .iam-not-robort p,
+.add-reviews .container .iam-not-robort img,
+.add-reviews .container .iam-not-robort input {
+  margin: auto;
+}
+
+.add-reviews .container .from-input {
+  width: 30px;
+  height: 40px;
+  background-color: #ffffff;
+  background-color: #a77e2d !important;
+  color: #ffffff !important;
+}
+
+.add-reviews .container .form-color {
+  color: #bebebe;
+}
+
+.average-for-hospitals {
+  background-color: #ffffff;
+  padding: 30px 0px;
+}
+
+.average-for-hospitals .container .heading {
+  font-family: mont_bold;
+  color: #3e3e3e;
+  text-transform: uppercase;
+}
+
+.average-for-hospitals .container .paragraph {
+  font-family: mont_regular;
+  font-size: 10px;
+  color: #3e3e3e;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.average-for-hospitals .container a {
+  font-family: mont_regular;
+  color: #be3b3b;
+}
+
+.average-for-hospitals .container .col-heading {
+  font-family: mont_regular;
+  color: #3e3e3e;
+  margin: auto 0px;
+}
+
+.average-for-hospitals .container .slider {
+  -webkit-appearance: none;
+  width: 50;
+  height: 5px;
+  background-color: #e37224;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.average-for-hospitals .container .slider:hover {
+  opacity: 1;
+}
+
+.average-for-hospitals .container .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #e37224;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.average-for-hospitals .container .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background-color: #e37224;
+  cursor: pointer;
+}
+
+.search-result .left-side {
+  padding: 20px;
+}
+
+.search-result .left-side h2 {
+  font-family: mont_semi_bold;
+  font-size: 24px;
+  color: #000000;
+}
+
+.search-result .left-side .blue {
+  color: #004c99 !important;
+}
+
+.search-result .left-side p {
+  font-family: mont_semi_bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+.search-result .left-side .w-88 {
+  width: 88%;
+}
+
+.search-result .left-side .w-80 {
+  width: 80%;
+}
+
+.search-result .left-side .button-wrapper button {
+  background-color: #004c99;
+  color: #ffffff;
+  font-family: mont_regular;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.search-result .left-side .button-wrapper button img {
+  margin-right: 5px;
+}
+
+.search-result .left-side .stars {
+  text-align: center;
+}
+
+.search-result .left-side .stars .bold {
+  font-family: mont_bold;
+}
+
+.search-result .left-side .stars p {
+  font-family: mont_light;
+  font-size: 10px;
+  margin: 0px;
+  color: #000000;
+}
+
+.search-result .left-side .bottom-part {
+  padding: 0px 40px;
+  padding-top: 28px;
+  margin: auto 0px;
+}
+
+.search-result .left-side .bottom-part .bottom-stars {
+  margin-bottom: 33px;
+}
+
+.search-result .left-side .bottom-part .bottom-stars .large-star {
+  width: 25px;
+}
+
+.search-result .left-side .bottom-part .bold-h {
+  font-family: mont_bold;
+  font-size: 11px;
+  color: #000000;
+}
+
+.search-result .left-side .bottom-part .paragraph {
+  font-family: mont_light;
+  font-size: 10px;
+  color: #000000;
 }
 
 .footer {
