@@ -711,11 +711,16 @@ body {
 }
 
 .search-result .left-side .bottom-part .bottom-stars {
-  margin-bottom: 33px;
+  margin-bottom: 22px;
 }
 
 .search-result .left-side .bottom-part .bottom-stars .large-star {
   width: 25px;
+}
+
+.search-result .left-side .bottom-part .icon-imgs {
+  width: 50%;
+  margin: auto;
 }
 
 .search-result .left-side .bottom-part .bold-h {
@@ -728,6 +733,49 @@ body {
   font-family: mont_light;
   font-size: 10px;
   color: #000000;
+}
+
+.search-result .owl-nav {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.search-result .fa-chevron-right {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 43px;
+  height: 40px;
+  font-size: 25px;
+  margin: auto 5px;
+  padding: 6px;
+  padding-left: 11px;
+}
+
+.search-result .fa-chevron-left {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 43px;
+  height: 40px;
+  font-size: 25px;
+  margin: auto 5px;
+  padding: 6px;
+  padding-right: 11px;
+}
+
+.search-result .bottom-border-line {
+  border-bottom: 2px solid #bebebe;
+}
+
+.search-result .bottom-text {
+  font-family: mont_regular;
+  font-size: 18px;
+  color: #000000;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.search-result .grey-text {
+  color: #707070 !important;
 }
 
 .footer {
