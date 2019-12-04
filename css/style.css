@@ -237,6 +237,8 @@ body {
   font-size: 16px;
   color: #e37224;
   text-align: left;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
 
 .table-items .container .heading {
@@ -349,6 +351,7 @@ body {
   font-family: mont_regular;
   font-size: 18px;
   float: right;
+  text-decoration: none;
 }
 
 .largest-blog .container .shadowing-left {
@@ -487,7 +490,7 @@ body {
 }
 
 .add-reviews {
-  background-color: rgba(190, 190, 190, 0.05);
+  background-color: rgba(190, 190, 190, 0.08);
   padding: 30px 0px;
 }
 
@@ -711,7 +714,7 @@ body {
 }
 
 .search-result .left-side .bottom-part .bottom-stars {
-  margin-bottom: 22px;
+  margin-top: 20px;
 }
 
 .search-result .left-side .bottom-part .bottom-stars .large-star {
@@ -733,6 +736,10 @@ body {
   font-family: mont_light;
   font-size: 10px;
   color: #000000;
+}
+
+.search-result .left-side .common-height {
+  min-height: 88px;
 }
 
 .search-result .owl-nav {
@@ -776,6 +783,158 @@ body {
 
 .search-result .grey-text {
   color: #707070 !important;
+}
+
+.review {
+  background-color: rgba(190, 190, 190, 0.08);
+  padding: 30px 0px;
+}
+
+.review .container h1 {
+  font-family: mont_bold;
+  font-size: 32px;
+  color: #004c99;
+  text-align: center;
+}
+
+.review .container .add-r {
+  font-family: mont_regular;
+  font-size: 18px;
+  color: #ab3535;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.review .container .add-r img {
+  margin-right: 5px;
+}
+
+.review .container .rating {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.2);
+  margin: 40px auto;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.review .container .rating .adjust-left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  /* align horizontal */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* align vertical */
+  height: 100%;
+}
+
+.review .container .rating .vl {
+  border-left: 3px solid #bebebe;
+  height: 200px;
+}
+
+.review .container .rating .left-rating {
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.review .container .rating .left-rating h1 {
+  font-family: mont_regular;
+  font-size: 50px;
+  color: #ab3535;
+  margin: 0px;
+}
+
+.review .container .rating .left-rating p {
+  font-family: mont_regular;
+  font-size: 25px;
+  color: #ab3535;
+  margin: 0px;
+  width: 98%;
+}
+
+.review .container .rating .right-rating .service-rating {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+
+.review .container .rating .right-rating p {
+  font-family: mont_regular;
+  font-size: 18px;
+  color: #000000;
+}
+
+.review .container .rating .right-rating .container {
+  width: 115px;
+  height: 6px;
+  border: 1px solid #3e3e3e;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  margin-top: 5px;
+}
+
+.review .container .rating .right-rating .container .bar {
+  width: 90px;
+  background-color: #4CAF50;
+  height: 4px;
+  border: 1px solid #4CAF50;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  position: relative;
+  left: -15px;
+}
+
+.review .container .helpful-review .heading {
+  font-family: mont_regular;
+  color: #3e3e3e;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.review .container .helpful-review .bottom-of-heading {
+  font-family: mont_regular;
+  font-size: 8px;
+  color: #bebebe;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.review .container .helpful-review .help-btn {
+  background-color: #004c99;
+  color: #ffffff;
+  font-family: mont_regular;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.review .container .helpful-review .help-btn img {
+  margin-right: 5px;
 }
 
 .footer {

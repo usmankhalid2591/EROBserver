@@ -28,7 +28,7 @@ $colors: (
   pro_grey_light:
     rgba(
       $color: #bebebe,
-      $alpha: 0.05
+      $alpha: 0.08
     )
 );
 
@@ -40,7 +40,9 @@ $colors: (
 // Font Sizes
 
 $font_sizes: (
+  50: 50px,
   32: 32px,
+  25: 25px,
   24: 24px,
   23: 23px,
   20: 20px,
@@ -220,6 +222,7 @@ body {
   background-color: color(pro_orange_light) !important;
 }
 
+
 .background-lite-red {
   background-color: color(pro_redlite_light) !important;
   border-top-left-radius: 5px;
@@ -257,6 +260,8 @@ body {
       font-size: font-size(16);
       color: color(pro_orange);
       text-align: left;
+      margin-bottom: 0px;
+      margin-top: 5px;
     }
     .heading {
       font-family: mont_bold;
@@ -362,6 +367,7 @@ body {
         font-family: mont_regular;
         font-size: font-size(18);
         float: right;
+        text-decoration: none;
       }
     }
     .shadowing-left {
@@ -689,7 +695,7 @@ body {
       margin: auto 0px;
 
       .bottom-stars {
-        margin-bottom: 22px;
+        margin-top: 20px;
         .large-star {
           width: 25px;
         }
@@ -708,6 +714,9 @@ body {
         font-size: font-size(10);
         color: color(pro_black);
       }
+    }
+    .common-height{
+      min-height: 88px;;
     }
 
 
@@ -748,6 +757,132 @@ body {
   }
   .grey-text{
     color: color(pro_intro_text) !important;
+  }
+}
+
+.review{
+  background-color: color(pro_grey_light);
+  padding: 30px 0px;
+  .container{
+    h1{
+      font-family: mont_bold;
+      font-size: font-size(32);
+      color: color(pro_blue);
+      text-align: center;
+      
+    }
+    .add-r{
+      font-family: mont_regular;
+      font-size: font-size(18);
+      color: color(pro_red);
+      text-decoration: none;
+      margin-left: auto;
+      img{
+        margin-right: 5px;
+      }
+    }
+    .rating{
+      background-color: color(pro_white);
+      box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.2);
+      margin: 40px auto;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-top-right-radius: 4px;
+      border-top-left-radius: 4px; 
+
+      .adjust-left-side{
+        display: flex; 
+        justify-content: flex-end; /* align horizontal */ 
+        align-items: center; /* align vertical */
+        height: 100%;
+      }
+      .vl {
+        border-left: 3px solid color(pro_grey_text);
+        height: 200px;
+      }
+      .left-rating{
+        text-align: center;
+        width: fit-content;
+        h1{
+          font-family: mont_regular;
+          font-size: font-size(50);
+          color: color(pro_red);
+          margin: 0px;
+        }
+        p{
+          font-family: mont_regular;
+          font-size: font-size(25);
+          color: color(pro_red);
+          margin: 0px;
+          width: 98%;
+        }
+      }
+      .right-rating{
+        .service-rating{
+          width: fit-content;
+          text-align: center;
+        }
+        p{
+          font-family: mont_regular;
+          font-size: font-size(18);
+          color: color(pro_black);
+        }
+        .container{
+          width: 115px;
+          height: 6px;
+          border: 1px solid color(pro_dark);
+          border-bottom-left-radius: 4px;
+          border-bottom-right-radius: 4px;
+          border-top-right-radius: 4px;
+          border-top-left-radius: 4px;  
+          margin-top: 5px;
+          .bar {
+            width: 90px;
+            background-color: #4CAF50;
+            height: 4px;
+            border: 1px solid #4CAF50;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+            position: relative;
+            left: -15px;
+          }
+        }
+      }
+    }
+
+    .helpful-review{
+
+      .heading{
+        font-family: mont_regular;
+        font-size: font-size(14);
+        color: color(pro_dark);
+        margin: 0px;
+        margin-left: 15px;
+      }
+      .bottom-of-heading{
+        font-family: mont_regular;
+        font-size: font-size(8);
+        color: color(pro_grey_text);
+        margin: 0px;
+        margin-left: 15px;
+      }
+      .help-btn{
+        background-color: color(pro_blue);
+        color: color(pro_white);
+        font-family: mont_regular;
+        font-size: font-size(18);
+        display: flex;
+        width:fit-content;
+        justify-content: center;
+        align-items: center;
+        img{
+          margin-right: 5px;
+        }
+      }
+
+    }
   }
 }
 
