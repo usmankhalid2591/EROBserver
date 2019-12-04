@@ -502,6 +502,7 @@ body {
 
 .add-reviews .container .sub-paragraph {
   font-family: mont_regular;
+  font-size: 14px;
   color: #3e3e3e;
 }
 
@@ -529,6 +530,7 @@ body {
 
 .add-reviews .container .form-data .name {
   font-family: mont_regular;
+  font-size: 14px;
   color: #bebebe;
 }
 
@@ -538,6 +540,7 @@ body {
   -webkit-box-shadow: 1px 2px 8px 1px #bebebe;
   box-shadow: 1px 2px 8px 1px #bebebe;
   font-family: mont_regular;
+  font-size: 14px;
   color: #bebebe;
   text-align: left;
 }
@@ -592,6 +595,7 @@ body {
 
 .average-for-hospitals .container .heading {
   font-family: mont_bold;
+  font-size: 14px;
   color: #3e3e3e;
   text-transform: uppercase;
 }
@@ -606,11 +610,13 @@ body {
 
 .average-for-hospitals .container a {
   font-family: mont_regular;
+  font-size: 14px;
   color: #be3b3b;
 }
 
 .average-for-hospitals .container .col-heading {
   font-family: mont_regular;
+  font-size: 14px;
   color: #3e3e3e;
   margin: auto 0px;
 }
@@ -901,6 +907,7 @@ body {
 
 .review .container .helpful-review .heading {
   font-family: mont_regular;
+  font-size: 14px;
   color: #3e3e3e;
   margin: 0px;
   margin-left: 15px;
@@ -935,6 +942,112 @@ body {
 
 .review .container .helpful-review .help-btn img {
   margin-right: 5px;
+}
+
+.emergency-plans {
+  background-color: rgba(227, 114, 36, 0.05);
+  padding: 40px 0px;
+}
+
+.emergency-plans .container h2 {
+  font-family: mont_bold;
+  font-size: 24px;
+  color: #004c99;
+  text-align: left;
+}
+
+.emergency-plans .container .center-parent {
+  width: 50%;
+  text-align: center;
+  margin: 30px auto;
+  padding: 0px 30px;
+  padding-bottom: 20px;
+}
+
+.emergency-plans .container .center-parent .center-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.emergency-plans .container .center-parent .center-part img {
+  margin-right: auto;
+}
+
+.emergency-plans .container .center-parent .center-part .date-h {
+  font-family: mont_regular;
+  font-size: 14px;
+  color: #bebebe;
+  margin: auto;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.emergency-plans .container .center-parent .center-part .date-input {
+  border: none;
+  border-bottom: 1px solid #3e3e3e;
+  height: 25px;
+  padding: 0px 10px;
+}
+
+.emergency-plans .container .center-parent .text-data {
+  width: 100%;
+  height: 180px;
+  border: 1px solid #bebebe;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.emergency-plans .container .center-parent .text-data p {
+  font-family: mont_bold;
+  font-size: 14px;
+  color: #3e3e3e;
+  text-align: left;
+}
+
+.emergency-plans .container .center-parent .text-data .input-field {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 100%;
+}
+
+.emergency-plans .container .bottom-heading {
+  color: #3e3e3e;
+  font-family: mont_regular;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.emergency-plans .container .bottom-paragraph {
+  font-family: mont_regular;
+  font-size: 20px;
+  color: #3e3e3e;
+  text-align: left;
+  margin: 0px;
+}
+
+.noteandsource {
+  background-color: #ffffff;
+  padding: 40px 0px;
+}
+
+.noteandsource .container h2 {
+  font-family: mont_semi_bold;
+  font-size: 24px;
+  color: #004c99;
+  text-align: left;
+}
+
+.noteandsource .container p {
+  font-family: mont_regular;
+  font-size: 20px;
+  color: #bebebe;
+  text-align: left;
+  margin: 25px 0px;
 }
 
 .footer {
